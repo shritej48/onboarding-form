@@ -1,0 +1,83 @@
+.academic-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI';
+  background-color: white;
+}
+
+.academic-container h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.academic-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-size: 14px;
+  color: #555;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group select {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.back-button {
+  margin: 20px;
+  width: 20%;
+  padding: 10px ;
+  text-align: center;
+  background-color:white;
+  color: black;
+  font-size: medium;
+  border-radius: 8px;
+}
+
+.continue-button {
+ margin: 20px;
+  width: 20%;
+  padding: 10px ;
+  text-align: center;
+  background-color:black;
+  color: white;
+  font-size: medium;
+  border-radius: 8px;
+}
+
+.arrow {
+  font-size: 18px;
+}

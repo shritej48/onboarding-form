@@ -1,0 +1,107 @@
+.personal-info-container {
+  max-width: 1605px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI';
+  background-color: white;
+}
+
+.personal-info-container h1 {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.personal-info-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 50px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-size: 14px;
+  color: black;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group select {
+  padding: 12px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form-group select {
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 1em;
+}
+
+.continue-button {
+  align-self: flex-end;
+  padding: 12px 24px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: medium;
+  gap: 5px;
+  margin: 20px;
+  width: 20%;
+  text-align: center;
+}
+
+.continue-button:hover {
+  background-color: black;
+}
+
+.arrow {
+  font-size: 18px;
+}
+
+.dob-container {
+  position: relative;
+}
+
+.dob-input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.dob-input-wrapper input {
+  padding-right: px;
+  width: 95.5%;
+}
+
+.calendar-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.calendar-icon svg {
+  width: 20px;
+  height: 20px;
+}

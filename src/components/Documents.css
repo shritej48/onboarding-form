@@ -1,0 +1,93 @@
+.documents-container {
+  max-width: 1600px;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.documents-container h1 {
+  font-size: 1.75rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin-bottom: 2rem;
+}
+
+.documents-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.document-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.document-group label {
+  font-size: 0.875rem;
+  color: #34495e;
+  font-weight: 600;
+}
+
+.document-group input[type="file"] {
+  padding: 0.5rem;
+  border: 1px dashed #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.file-hint {
+  font-size: 0.75rem;
+  color: #95a5a6;
+  margin-top: 0.25rem;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.back-button {
+  margin: 20px;
+  width: 20%;
+  padding: 10px ;
+  text-align: center;
+  background-color:white;
+  color: black;
+  font-size: medium;
+  border-radius: 8px;
+}
+
+.back-button:hover {
+  background-color: #e9ecef;
+  border-color: #ced4da;
+}
+
+.continue-button {
+   margin: 20px;
+  width: 20%;
+  padding: 10px ;
+  text-align: center;
+  background-color:black;
+  color: white;
+  font-size: medium;
+  border-radius: 8px;
+}
+
+.continue-button:hover {
+  background-color: black;
+}
+
+.arrow {
+  font-size: 1.125rem;
+  line-height: 1;
+}

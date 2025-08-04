@@ -1,0 +1,80 @@
+.first-main {
+  display: flex;
+}
+
+.stepper-navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  width: 100%;
+  padding: 20px 30px;
+  border: 3px solid white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI';
+}
+
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand img {
+  width: 58px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.brand span {
+  font-weight: bold;
+  font-size: 16px;
+  color: #000;
+}
+
+.steps {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #999;
+  font-size: 13px;
+  font-weight: 500;
+  position: relative;
+}
+
+.step:not(:last-child)::after {
+  content: '—';
+  color: #ccc;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ccc;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step.active {
+  color: #28a745;
+}
+
+.step.active .circle {
+  background-color: #28a745;
+}
